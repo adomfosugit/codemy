@@ -13,23 +13,23 @@
 <br/>
 {% for x in my_list %}
 
-<div class="card mb-3" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src={{  x.product_image }} class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">{{  x.name  }}</h5>
-          <p class="card-text">{{ x.Description }}</p>
-          <h3 class="card-text"> GHC {{ x.Price }}</h3>
-          <a href="https://paystack.com/pay/elimay" class="btn btn-primary">Buy</a>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src={{  x.product_image }} class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">{{  x.name  }}</h5>
+                  <p class="card-text">{{ x.Description }}</p>
+                  <h3 class="card-text"> GHC {{ x.Price }}</h3>
+                  <a href="https://paystack.com/pay/elimay" class="btn btn-primary">Buy</a>
 
 
-      </div>
-    </div>
-  </div>
-</div>
+              </div>
+            </div>
+          </div>
+        </div>
    <!-- First Photo Grid-->
 
 
